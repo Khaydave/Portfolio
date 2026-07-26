@@ -101,7 +101,7 @@
     /* PROJECTS */
     #projects { background: var(--white); }
     .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; }
-    .project-card { background: var(--ivory); border-radius: 16px; overflow: hidden; border: 1px solid var(--sand); transition: transform 0.25s, border-color 0.25s; }
+    .project-card { background: var(--ivory); border-radius: 16px; overflow: hidden; border: 1px solid var(--sand); transition: transform 0.25s, border-color 0.25s; display: block; text-decoration: none; color: inherit; cursor: pointer; }
     .project-card:hover { transform: translateY(-4px); border-color: var(--terracotta-light); }
     .project-thumb { width: 100%; aspect-ratio: 16/10; background: var(--ivory-dark); display: flex; align-items: center; justify-content: center; font-size: 0.85rem; color: var(--espresso-light); font-style: italic; font-family: 'Playfair Display', serif; border-bottom: 1px solid var(--sand); }
     .project-thumb.t1 { background: #F5E0D4; color: var(--terracotta); }
@@ -302,42 +302,42 @@
       <p class="section-label">Selected projects</p>
       <h2 class="section-title">Things I've made.</h2>
       <div class="projects-grid">
-        <div class="project-card">
+        <a href="https://www.behance.net/gallery/215344857/SINGLE-SHOTS" target="_blank" class="project-card">
           <div class="project-thumb t1">Photography</div>
           <div class="project-body">
             <p class="project-tag">Photography · Portrait</p>
             <p class="project-name">Single Shots</p>
             <p class="project-desc">A compelling portrait photography compilation — individual frames that capture personality, mood, and the quiet power of a single shot.</p>
-            <a href="https://www.behance.net/gallery/215344857/SINGLE-SHOTS" target="_blank" class="project-link">View on Behance →</a>
+            <span class="project-link">View on Behance →</span>
           </div>
-        </div>
-        <div class="project-card">
+        </a>
+        <a href="https://www.behance.net/gallery/251525043/DESIGNS" target="_blank" class="project-card">
           <div class="project-thumb t2">Graphic Design</div>
           <div class="project-body">
             <p class="project-tag">Graphic Design · Visual</p>
             <p class="project-name">Designs</p>
             <p class="project-desc">A creative design collection spanning flyers, brand visuals, and digital assets — built to engage, communicate, and leave an impression.</p>
-            <a href="https://www.behance.net/gallery/251525043/DESIGNS" target="_blank" class="project-link">View on Behance →</a>
+            <span class="project-link">View on Behance →</span>
           </div>
-        </div>
-        <div class="project-card">
+        </a>
+        <a href="https://www.behance.net/gallery/215345105/NATURE-SHOTS" target="_blank" class="project-card">
           <div class="project-thumb t3">Photography</div>
           <div class="project-body">
             <p class="project-tag">Photography · Nature</p>
             <p class="project-name">Nature Shots</p>
             <p class="project-desc">Fragments of nature captured on lens — a visual exploration of texture, light, and the quiet beauty found in the natural world.</p>
-            <a href="https://www.behance.net/gallery/215345105/NATURE-SHOTS" target="_blank" class="project-link">View on Behance →</a>
+            <span class="project-link">View on Behance →</span>
           </div>
-        </div>
-        <div class="project-card">
+        </a>
+        <a href="https://www.behance.net/gallery/251528097/VIDEO-EDITS" target="_blank" class="project-card">
           <div class="project-thumb" style="background:#EDE0F5;color:#6A4A8A;width:100%;aspect-ratio:16/10;display:flex;align-items:center;justify-content:center;font-size:0.85rem;font-style:italic;font-family:'Playfair Display',serif;border-bottom:1px solid var(--sand);">Video Editing</div>
           <div class="project-body">
             <p class="project-tag">Video Editing</p>
             <p class="project-name">Video Edits</p>
             <p class="project-desc">A collection of dynamic, polished video edits crafted for engagement — optimized for social media and digital platforms.</p>
-            <a href="https://www.behance.net/gallery/251528097/VIDEO-EDITS" target="_blank" class="project-link">View on Behance →</a>
+            <span class="project-link">View on Behance →</span>
           </div>
-        </div>
+        </a>
       </div>
     </div>
   </section>
